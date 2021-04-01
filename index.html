@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 08
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  <audio src="https://www.mboxdrive.com/videoplayback.mp3" type="audio/mp3" id="win"></audio>
+  <audio src="https://www.mboxdrive.com/Usuda%20Pekora%20screaming%20BANANA.mp3" type="audio/mp3" id="lose"></audio>
+</head>
+
+<body>
+    <div class="header">    
+        <h1 class="page-title">Hololive<br>Card Game!</h1>
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+        <form id="form">
+            <h2 id="mudarTexto">Escolha o seu atributo</h2>
+          </div>
+      <div class="placar">
+			<h2>Jogador </h2>  <p class="digito" id="placarJogador">0</p>
+			<h2>Máquina </h2>  <p class="digito" id="placarMaquina">0</p>
+		</div>
+    <div class="container">
+       <div class="wrapper">
+         <div>
+          <div id="carta-jogador">
+            <h1 class= "titulo1">Hololive!</h1>
+           <img class="imagemJogador" src="https://i.ibb.co/8zCXKwY/TDHNnSA.jpg"></img>
+<ul class="atributos1">
+      	<li class="atributoForca1">Forca <span class="forca1"></span></li>
+      	<li class="atributoCarisma1">Carisma <span class="carisma1"></span></li>
+      	<li class="atributoVoz1">Voz <span class="voz1"></span></li>
+</ul>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png"style=" width: inherit; height: inherit; position: absolute;">
+                        <h3></h3>
+                    </div>
+                </div>
+ <div>
+      <div id="carta-maquina" class="carta"><img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;">
+        <h1 class= "titulo2">Hololive!</h1>
+        <img class="imagemMaquina" src="https://i.ibb.co/8zCXKwY/TDHNnSA.jpg"></img>
+      <ul class="atributos2">
+      	<li class="atributoForca2">Forca <span class="forca2"></span></li>
+      	<li class="atributoCarisma2">Carisma <span class="carisma2"></span></li>
+      	<li class="atributoVoz2">Voz <span class="voz2"></span></li>
+      </ul>
+      </div>
+                </div>
+            </div>
+      <div class="options"></div>
+            <div id="resultado"></div>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

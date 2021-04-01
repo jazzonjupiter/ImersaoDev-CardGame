@@ -1,0 +1,160 @@
+body {
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 2px;
+    background-image: url("https://i.ibb.co/njVyBMn/wallhaven-m998p1.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: red;
+  width: 300px;
+  position: relative;
+  margin: auto;
+  background-color: #9F30D6;
+  border: 4px solid #CC94ED;
+  border-radius: 20px;
+}
+.atributos1, .atributos2{
+  z-index: 2;
+  top: 220px;
+  position: absolute;
+  left: 10px;
+  color: white;
+}
+.atributos2{
+  z-index: 2;
+  top: 220px;
+  position: absolute;
+  left: 10px;
+  color: white;
+}
+.placar{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 5px;
+  background-color: #9F30D6;
+  border: 4px solid #CC94ED;
+  border-radius: 20px;
+  width: 300px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.digito {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #CE74E6;
+  color: white;
+  width: 70px;
+  height: 20px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 5px 0;
+}
+#btnSortear{
+  background-color: #F59D3C;
+  font-size: 14px;
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  border: 2px #905FF5;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #862FF0;
+}
+.btnatributo{
+  background-color: #F59D3C;
+  font-size: 15px;
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  border: 2px #905FF5;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #862FF0;
+  margin: 5px;
+}
+h2 {
+    color: white;
+}
+
+#carta-jogador, #carta-maquina {
+    width: 200px;
+    height: 350px;
+    z-index: 1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 10px;
+    border-radius: 33px;
+}
+
+.imagemJogador, .imagemMaquina {
+    width: 180px;
+    height: 170px;
+    margin-top: 30px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.titulo1, .titulo2 {
+    z-index: 2;
+    position: absolute;
+    font-size: 10px;
+    top: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+button:hover{
+  transform: scale(1.04);
+  opacity: 0.8;
+}
+#cartas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
